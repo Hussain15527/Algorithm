@@ -25,7 +25,7 @@ Infact `n=n>>x` makes the value of `n=n/(2^x)`
 
 ### A) 
 
- **If `n` is `even` then `n^(n+1)==1` **
+ **If `n%2==0(even)` then `n^(n+1)==1` **
 
 ex.`n=6`, `bin(n)=110` and `bin(n+1)=111`, we can observe that if `n` is an `even` then then difference between binary representation of `n`and `n+1` is just the right most bit rest all the bits are same, and we know that in `xor` operation only different bit result in `1` and same bit result in `0`, therefore in the above case, only right most bit is `1`.
 
@@ -35,8 +35,11 @@ ex.`n=6`, `bin(n)=110` and `bin(n+1)=111`, we can observe that if `n` is an `eve
 
 ex. `n=4,` `bin(n)=100` and `bin(n+2)==110` , we can observe that only second bit from the right is different, all other bits are same, therfore if we take `xor` of `n` and `n+2` it will result in `2`.
 
+## 4. 0x55555555
 
+The number **0x55555555** is a hexametric number, which represents *1010101010101010101010101010101* in binary
 
+Special property of this number lies in it's binary represention, 
 
-
-   
+1.  alternating 0 and 1
+2. set bit at odd places.
