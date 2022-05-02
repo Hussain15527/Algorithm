@@ -38,3 +38,11 @@ ex. `n=4,` `bin(n)=100` and `bin(n+2)==110` , we can observe that only second bi
 ## 4. 0x55555555
 
 The number **0x55555555** is a hexametric number, which represents *1010101010101010101010101010101* in binary
+
+Special property of this number lies in it's binary represention, 
+
+1.  alternating 0 and 1
+2. set bit at odd places.
+
+## 5 Parity finder
+to find if two numbers have same parity or not we can do `(a&1)==(b&1)` if they have same parity then these are equal.
